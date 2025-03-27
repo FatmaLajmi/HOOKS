@@ -1,0 +1,89 @@
+/* App.css */
+/* Remove default template styles */
+.App {
+  text-align: left; /* Changed from center to left for better content alignment */
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Header styles */
+.app-header {
+  background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+/* Main content container */
+.main-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 2rem;
+  }
+  
+  .app-subtitle {
+    font-size: 1rem;
+  }
+  
+  .main-container {
+    padding: 0 15px;
+  }
+}
+
+/* Animation for interactive elements */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animated-entry {
+  animation: fadeIn 0.5s ease-out forwards;
+}

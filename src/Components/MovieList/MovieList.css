@@ -1,0 +1,32 @@
+/* MovieList.css */
+.movie-list-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .movie-list-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .no-movies-message {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    color: #6c757d;
+  }

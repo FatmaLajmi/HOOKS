@@ -1,0 +1,25 @@
+/* AddMovie.css */
+.add-movie-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .add-movie-form .form-control {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  
+  .add-movie-form .btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .add-movie-form .btn:hover {
+    background-color: #0069d9;
+  }

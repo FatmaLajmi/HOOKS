@@ -1,0 +1,18 @@
+/* FilterMovie.css */
+.filter-form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-form .form-control {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    flex: 1;
+  }
+  
+  .filter-form .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
